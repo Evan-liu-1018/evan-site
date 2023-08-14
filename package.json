@@ -1,0 +1,17 @@
+{
+  "name": "evan-site",
+  "version": "1.0.0",
+  "description": "personal technical learning site",
+  "repository": "https://github.com/God-F/evan-site.git",
+  "author": "God-F <1132192506@qq.com>",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.4"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  }
+}
