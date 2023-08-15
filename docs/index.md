@@ -5,21 +5,27 @@ layout: home
 hero:
   name: "Evan's Site"
   text: "personal technical learning site"
-  tagline: My great project tagline
+  tagline: 💯💯💯💯💯💯💯💯💯
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Front End
+      link: /frontend/index
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Back End
+      link: /backend/index
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: ➕
+    title: Front End
+    details: HTML & CSS & Javascript
+  - icon: ➖
+    title: Back End
+    details: Java & NodeJs
+  - icon: ✖️
+    title: Algorithm
+    details: 1 + 1  !== 3
+  - icon: ➗
+    title: Other
+    details: I don't know anything
 ---
 
