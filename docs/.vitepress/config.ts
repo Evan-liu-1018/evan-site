@@ -9,7 +9,8 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: 'Home', link: '/'},
-            {text: 'Front End', link: '/frontend/index'}
+            {text: 'Front End', link: '/frontend/index'},
+            {text: 'Back End', link: '/backend/index'}
         ],
 
         sidebar: [
@@ -52,7 +53,9 @@ export default defineConfig({
                 ]
             }
         ],
-
+        search: {
+            provider: 'local'
+        },
         socialLinks: [
             {icon: 'github', link: 'https://github.com/Evan-liu-1018/evan-site'}
         ]
