@@ -17,7 +17,7 @@ hero:
 features:
   - icon: ➕
     title: Front End
-    details: HTML & CSS & Javascript
+    details: 前端基础 & 前端工程化
   - icon: ➖
     title: Back End
     details: Java & NodeJs

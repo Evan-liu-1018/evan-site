@@ -5,6 +5,7 @@ export default defineConfig({
     title: "Evan's Site",
     description: "personal technical learning site",
     head: [['link', {rel: 'icon', href: '/favicon.ico'}]],
+    lastUpdated: true,
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
