@@ -18,7 +18,7 @@ JSONP并不是一个好的跨域解决方案，它至少有着下面两个严重
 
 它的总体思路是：**如果浏览器要跨域访问服务器的资源，需要获得服务器的允许**
 
-![image-20200421152122793](http://mdrs.yuanjin.tech/img/image-20200421152122793.png)
+![](/images/1692608150794-97.png)
 
 而要知道，一个请求可以附带很多信息，从而会对服务器造成不同程度的影响
 
@@ -153,7 +153,7 @@ Access-Control-Allow-Origin: http://my.com
 
 下图简述了整个交互过程
 
-![image-20200421162846480](http://mdrs.yuanjin.tech/img/image-20200421162846480.png)
+![](/images/1692608178160-522.png)
 
 ## 需要预检的请求
 
@@ -264,7 +264,7 @@ Access-Control-Allow-Origin: http://my.com
 
 下图简述了整个交互过程
 
-![image-20200421165913320](http://mdrs.yuanjin.tech/img/image-20200421165913320.png)
+![](/images/1692608201284-309.png)
 
 ## 附带身份凭证的请求
 

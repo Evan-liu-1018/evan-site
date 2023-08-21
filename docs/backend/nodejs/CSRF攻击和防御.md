@@ -4,16 +4,16 @@ CSRF：Cross Site Request Forgery，跨站请求伪造
 
 本质是：恶意网站把**正常用户**作为**媒介**，通过模拟正常用户的操作，攻击其**登录过**的站点。
 
-![](http://mdrs.yuanjin.tech/img/image-20200508122744169.png)
+![](/images/1692608288303-911.png)
 
 它的原理如下：
 
 1. 用户访问正常站点，登录后，获取到了正常站点的令牌，以cookie的形式保存
-![](http://mdrs.yuanjin.tech/img/image-20200508123116104.png)
+![](/images/1692608310324-633.png)
 
 
 2. 用户访问恶意站点，恶意站点通过某种形式去请求了正常站点（请求伪造），迫使正常用户把令牌传递到正常站点，完成攻击
-![](http://mdrs.yuanjin.tech/img/image-20200508123401591.png)
+![](/images/1692608329430-918.png)
 
 
 # 防御
