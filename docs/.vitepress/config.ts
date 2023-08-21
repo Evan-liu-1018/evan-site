@@ -33,6 +33,7 @@ export default defineConfig({
                         text: 'javascript', items: [
                             {text: 'javascript面试', link: '/frontend/javascript/javascript面试'},
                             {text: '手写Promise', link: '/frontend/javascript/手写Promise'},
+                            {text: '图片转base64', link: '/frontend/javascript/image2base64'},
                         ],
                     },
                 ]
