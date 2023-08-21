@@ -34,6 +34,7 @@ export default defineConfig({
                             {text: 'javascript面试', link: '/frontend/javascript/javascript面试'},
                             {text: '手写Promise', link: '/frontend/javascript/手写Promise'},
                             {text: '图片转base64', link: '/frontend/javascript/image2base64'},
+                            {text: '移动端适配方案', link: '/frontend/javascript/移动端适配方案'},
                         ],
                     },
                 ]
@@ -49,7 +50,12 @@ export default defineConfig({
                     },
                     {
                         text: 'nodejs相关', items: [
-                            {text: '日常script', link: '/backend/nodejs/日常script'}
+                            {text: '日常script', link: '/backend/nodejs/日常script'},
+                            {text: '进程和线程', link: '/backend/nodejs/进程和线程'},
+                            {text: 'XSS攻击和防御', link: '/backend/nodejs/XSS攻击和防御'},
+                            {text: 'CSRF攻击和防御', link: '/backend/nodejs/CSRF攻击和防御'},
+                            {text: 'JWT', link: '/backend/nodejs/JWT'},
+                            {text: 'CORS跨域', link: '/backend/nodejs/CORS跨域'},
                         ]
                     },
                 ]
