@@ -52,14 +52,22 @@ export default defineConfig({
                         text: 'nodejs相关', items: [
                             {text: '日常script', link: '/backend/nodejs/日常script'},
                             {text: '进程和线程', link: '/backend/nodejs/进程和线程'},
-                            {text: 'XSS攻击和防御', link: '/backend/nodejs/XSS攻击和防御'},
-                            {text: 'CSRF攻击和防御', link: '/backend/nodejs/CSRF攻击和防御'},
-                            {text: 'JWT', link: '/backend/nodejs/JWT'},
-                            {text: 'CORS跨域', link: '/backend/nodejs/CORS跨域'},
-                            {text: 'cookie', link: '/backend/nodejs/cookie'},
                         ]
                     },
                 ]
+            },
+            {
+                text: 'NetWork',
+                collapsed: false,
+                items:[
+                    {text: 'cookie', link: '/network/cookie'},
+                    {text: 'JWT', link: '/network/JWT'},
+                    {text: 'CORS跨域', link: '/network/CORS跨域'},
+                    {text: 'XSS攻击和防御', link: '/network/XSS攻击和防御'},
+                    {text: 'CSRF攻击和防御', link: '/network/CSRF攻击和防御'},
+                    {text: '网络面试题', link: '/network/网络面试题'},
+                ]
+
             }
         ],
         search: {
