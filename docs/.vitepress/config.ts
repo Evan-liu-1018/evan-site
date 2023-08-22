@@ -56,6 +56,7 @@ export default defineConfig({
                             {text: 'CSRF攻击和防御', link: '/backend/nodejs/CSRF攻击和防御'},
                             {text: 'JWT', link: '/backend/nodejs/JWT'},
                             {text: 'CORS跨域', link: '/backend/nodejs/CORS跨域'},
+                            {text: 'cookie', link: '/backend/nodejs/cookie'},
                         ]
                     },
                 ]
