@@ -34,6 +34,7 @@ export default defineConfig({
                             {text: 'javascript面试', link: '/frontend/javascript/javascript面试'},
                             {text: '手写Promise', link: '/frontend/javascript/手写Promise'},
                             {text: '图片转base64', link: '/frontend/javascript/image2base64'},
+                            {text: '搜索excel内容', link: '/frontend/javascript/findWordInExcel'},
                             {text: '移动端适配方案', link: '/frontend/javascript/移动端适配方案'},
                         ],
                     },

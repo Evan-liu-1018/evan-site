@@ -2,7 +2,7 @@
 
 ## java数据类型
 
-### 1.内置数据类型(基本数据类型)
+### 内置数据类型(基本数据类型)
 
 > Java语言提供了八种基本类型。六种数字类型（四个整数型，两个浮点型），一种字符类型，还有一种布尔型。
 
@@ -17,7 +17,7 @@
 | boolean | --    | --                   | --                  | Boolean   | false | `boolean one = true` |
 | char    | 16    | '\u0000'             | '\uffff'            | Character | --    | `char letter = 'A'`  |
 
-### 2.引用类型
+### 引用类型
 
 > Class、Array、String、Interface 等都是引用数据类型。 所有引用类型的默认值都是null。
 
