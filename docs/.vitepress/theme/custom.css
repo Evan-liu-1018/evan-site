@@ -1,3 +1,11 @@
 pre,code,kbd,samp {
-    font-family: var(--vp-font-family-mono) !important;
+    font-family: var(--vp-font-family-mono);
+}
+
+:root {
+    --vp-layout-max-width: 90%;
+}
+
+.VPDoc.has-aside .content .content-container{
+    max-width: 90% ;
 }

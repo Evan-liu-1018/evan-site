@@ -1,6 +1,7 @@
+import DefaultTheme from 'vitepress/theme'
 import '@arco-design/web-vue/dist/arco.css';
 import './custom.css'
-import DefaultTheme from 'vitepress/theme'
+
 
 
 export default DefaultTheme
